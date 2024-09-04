@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="#"><img src="./images/logoo.png" alt="logo" /></a>
+                    </div>
+                    <div class="menu-wrapper">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="/public/aboutus.html">About</a></li>
+                                <li><a href="/public/packages.html">Packages</a></li>
+                                <li><a href="/public/contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <span class="search-icon">
+                                <img src="./images/search.png" alt="search" />
+                            </span>
+                            <!-- <input class="scrh" type="search" name="" placeholder="search"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="container">
+                <div class="banner-wrapper">
+                    <div class="banner-content">
+                        <h1>Travel India</h1>
+                        <p>Falling in love with every journey<br />I take, not just the destination</p>
+                        <a href="/public/book.html"><button>Book Now</button></a>
+                    </div>
+                    <div class="form-container">
+                        <form class="form" action="http://localhost:3000/signup" method="POST">
+                            <h2 class="log">LOGIN</h2><br>
+                            <label for="fname">Username:</label><br>
+                            <input type="text" id="username" name="username" class="box" placeholder="Enter username"><br>
+                            <label for="password">Password:</label><br>
+                            <input type="password" id="password" name="password" class="box" placeholder="Enter password"> <br>
+                            <button type="submit">Login</button><br>
+                            <a href="/public/signup.html">Don't have an account? SignUp</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+
+</body>
+
+</html>
